@@ -48,6 +48,7 @@ env:
     src/manifests/configmap.yaml
     src/manifests/deployment.yaml
     src/manifests/service.yaml
+    fleet/deploy-web-fe-everywhere.yaml
   DOCKER_FILE: src/Dockerfile
   BUILD_CONTEXT_PATH: ./src
   NAMESPACE: python-web-fe
